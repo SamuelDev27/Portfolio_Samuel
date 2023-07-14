@@ -76,7 +76,7 @@
         Alem disso trabalho com criações de pacotes em <span>JavaScript</span>
         e <span>TypeScript</span> para <span >React Native.</span> Deseja conhecer os pacotes desenvolvidos?
         Conheça o meu <a href="https://github.com/SamuelDev27" target="_blank">Github</a>. Deseja conhecer os meus projetos? Conheça o meu <a href = "#portfolio" class="link-item">Portfólio</a>.
-          Deseja entrar em contato comigo? <a href = "#contato" class="link-item">Clique aqui!</a>.</p>
+          <!-- Deseja entrar em contato comigo? <a href = "#contato" class="link-item">Clique aqui!</a>.</p> -->
           <h2>Habilidades</h2>
           <div class = "skills">
             <div class = "skill-item">JavaScript</div>
@@ -86,6 +86,7 @@
             <div class = "skill-item">Html</div>
             <div class = "skill-item">Css</div>
             <div class = "skill-item">Bootstrap</div>
+            <div class = "skill-item">ThreeJs</div>
           </div>
 
            <!--Social Section End-->
@@ -115,8 +116,18 @@
 </a>
         </div>
 
+        <div class="icon whats">
+          <div class="tooltip">
+  WhatsApp</div>
+  <a href="https://api.whatsapp.com/send?phone=5571993106854&text=Olá 👋" target="_blank" >
+  <span><i class="fab fa-whatsapp"></i></span>
+</a>
+        </div>
+
  
   </div>
+
+ 
 
       <!--Social Section End-->
           
@@ -145,7 +156,7 @@
           <button type = "button" title="React Native" class="portfolio-filter-btn" data-filter="react-native" >React Native</button>
           <button type = "button" title="React " class="portfolio-filter-btn" data-filter="react" >React JS</button>
           <button type = "button" title="Html" class="portfolio-filter-btn" data-filter="html" >Html</button>
-          <button type = "button" title="JavaScript/TypeScript" class="portfolio-filter-btn" data-filter="java-type" >JavaScript / TypeScript</button>
+          <button type = "button" title="JavaScript/ThreeJs" class="portfolio-filter-btn" data-filter="java-type" >JavaScript / ThreeJs</button>
         </div>
         <div class="filter-status">
           <p></p>
@@ -156,23 +167,22 @@
 
         <div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/1.jpg" alt="thumbnail">
+            <img src="img/portfolio/1.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Projeto React Native 1</h3>
+          <h3 class="portfolio-item-title">BlackDesk</h3>
           <div class="portfolio-item-details">
             <div class="description">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
-                soluta labore quae minima quos natus id modi? 
-                Perferendis nihil voluptatibus aspernatur dolore labore praesentium commodi. Ab quo necessitatibus ipsam perspiciatis illum, 
-                exercitationem minus maxime possimus harum dicta doloribus aliquam cum iste accusamus.</p>
+              <p>Gerencie Projetos e Obras, compartilhe informações relevantes com seus 
+                clientes, parceiros e fornecedores, tire dúvidas técnicas em nosso 
+                forum especializado, receba benefícios, crie diários de obras e 
+                gerencie documentos.</p>
             </div>
             <div class="general-info">
               <p>Status - <span>Finalizado</span></p>
               <p>Tecnologias - <span>React Native</span></p>
               <p>Categoria - <span>React Native</span></p>
-              <p>Video Demostrativo - <span onclick= "toggleVideo();" class = "general-video">Clique Aqui</span></p>
-              <p>Repositorio - <span><a href="#"  target="_blank">www.domain.com</a></span></p>
+              <p>Site Oficial - <span><a href="https://www.blackdesk.com.br"  target="_blank">https://www.blackdesk.com.br</a></span></p>
               <video src="videos/video4.mp4" ></video>
             </div>
           </div>
@@ -180,10 +190,10 @@
 
         <div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/2.jpg" alt="thumbnail">
+            <img src="img/portfolio/2.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Projeto React Native 2</h3>
+          <h3 class="portfolio-item-title">Eventarium</h3>
           <div class="portfolio-item-details">
             <div class="description">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
@@ -192,11 +202,10 @@
                 exercitationem minus maxime possimus harum dicta doloribus aliquam cum iste accusamus.</p>
             </div>
             <div class="general-info">
-              <p>Status - <span>Finalizado</span></p>
+              <p>Status - <span>Em desenvolvimento</span></p>
               <p>Tecnologias - <span>React Native</span></p>
               <p>Categoria - <span>React Native</span></p>
-              <p>Video Demostrativo - <span onclick= "toggleVideo();" class = "general-video">Clique Aqui</span></p>
-              <p>Repositorio - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+             
               <video src="videos/video2.mp4" ></video>
             </div>
           </div>
@@ -204,10 +213,10 @@
 
         <div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/3.jpg" alt="thumbnail">
+            <img src="img/portfolio/3.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Projeto React Native 3</h3>
+          <h3 class="portfolio-item-title">Netflix App Redesign</h3>
           <div class="portfolio-item-details">
             <div class="description">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
@@ -220,18 +229,23 @@
               <p>Tecnologias - <span>React Native</span></p>
               <p>Categoria - <span>React Native</span></p>
               <p>Video Demostrativo - <span onclick= "toggleVideo();" class = "general-video">Clique Aqui</span></p>
-              <p>Repositorio - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+              <p>Live Demo -<span onclick= "toggleDemo();" class = "general-video">Clique Aqui</span></p>
               <video src="videos/video3.mp4" ></video>
+              
+            
             </div>
+
           </div>
+
+         
         </div>
 
         <div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/4.jpg" alt="thumbnail">
+            <img src="img/portfolio/4.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Projeto React Native 4</h3>
+          <h3 class="portfolio-item-title">Sport App</h3>
           <div class="portfolio-item-details">
             <div class="description">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
@@ -244,7 +258,7 @@
               <p>Tecnologias - <span>React Native</span></p>
               <p>Categoria - <span>React Native</span></p>
               <p>Video Demostrativo - <span onclick= "toggleVideo();" class = "general-video">Clique Aqui</span></p>
-              <p>Repositorio - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+              <p>Live Demo - <span><a href="#" target="_blank">www.domain.com</a></span></p>
               <video src="videos/video4.mp4" ></video>
             </div>
           </div>
@@ -252,10 +266,10 @@
 
         <div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/5.jpg" alt="thumbnail">
+            <img src="img/portfolio/5.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Projeto React Native 5</h3>
+          <h3 class="portfolio-item-title">Weather App</h3>
           <div class="portfolio-item-details">
             <div class="description">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
@@ -268,18 +282,18 @@
               <p>Tecnologias - <span>React Native</span></p>
               <p>Categoria - <span>React Native</span></p>
               <p>Video Demostrativo - <span onclick= "toggleVideo();" class = "general-video">Clique Aqui</span></p>
-              <p>Repositorio - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+              <p>Live Demo - <span><a href="#" target="_blank">www.domain.com</a></span></p>
               <video src="videos/video4.mp4" ></video>
             </div>
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="react">
+        <div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/6.jpg" alt="thumbnail">
+            <img src="img/portfolio/6.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Projeto React 1</h3>
+          <h3 class="portfolio-item-title">News App</h3>
           <div class="portfolio-item-details">
             <div class="description">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
@@ -289,21 +303,21 @@
             </div>
             <div class="general-info">
               <p>Status - <span>Finalizado</span></p>
-              <p>Tecnologias - <span>React </span></p>
-              <p>Categoria - <span>React </span></p>
+              <p>Tecnologias - <span>React Native</span></p>
+              <p>Categoria - <span>React Native </span></p>
               <p>Video Demostrativo - <span onclick= "toggleVideo();" class = "general-video">Clique Aqui</span></p>
-              <p>Repositorio - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+              <p>Live Demo - <span><a href="#" target="_blank">www.domain.com</a></span></p>
               <video src="videos/video4.mp4" ></video>
             </div>
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="react">
+        <div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/6.jpg" alt="thumbnail">
+            <img src="img/portfolio/7.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Projeto React 2</h3>
+          <h3 class="portfolio-item-title">Museum App</h3>
           <div class="portfolio-item-details">
             <div class="description">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
@@ -313,21 +327,22 @@
             </div>
             <div class="general-info">
               <p>Status - <span>Finalizado</span></p>
-              <p>Tecnologias - <span>React </span></p>
-              <p>Categoria - <span>React </span></p>
+              <p>Tecnologias - <span>React Native</span></p>
+              <p>Categoria - <span>React Native </span></p>
               <p>Video Demostrativo - <span onclick= "toggleVideo();" class = "general-video">Clique Aqui</span></p>
-              <p>Repositorio - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+              <p>Live Demo - <span><a href="#" target="_blank">www.domain.com</a></span></p>
               <video src="videos/video4.mp4" ></video>
+              
             </div>
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="react">
+        <div class="portfolio-item" data-category="react,html">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/7.jpg" alt="thumbnail">
+            <img src="img/portfolio/8.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Projeto React 3</h3>
+          <h3 class="portfolio-item-title">HealthGo - Landing App</h3>
           <div class="portfolio-item-details">
             <div class="description">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
@@ -337,10 +352,58 @@
             </div>
             <div class="general-info">
               <p>Status - <span>Finalizado</span></p>
-              <p>Tecnologias - <span>React </span></p>
-              <p>Categoria - <span>React </span></p>
-              <p>Video Demostrativo - <span onclick= "toggleVideo();" class = "general-video">Clique Aqui</span></p>
-              <p>Repositorio - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+              <p>Tecnologias - <span>React/JavaScript </span></p>
+              <p>Categoria - <span>React/JavaScript</span></p>
+           
+              <p>Live Demo - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+              <video src="videos/video4.mp4" ></video>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="html">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/9.png" alt="thumbnail">
+            <button type = "button" class="btn more-info-btn" >Mais Informações</button>
+          </div>
+          <h3 class="portfolio-item-title">HTML/Javascript Timeline</h3>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
+                soluta labore quae minima quos natus id modi? 
+                Perferendis nihil voluptatibus aspernatur dolore labore praesentium commodi. Ab quo necessitatibus ipsam perspiciatis illum, 
+                exercitationem minus maxime possimus harum dicta doloribus aliquam cum iste accusamus.</p>
+            </div>
+            <div class="general-info">
+              <p>Status - <span>Finalizado</span></p>
+              <p>Tecnologias - <span> HTML, Javascript </span></p>
+              <p>Categoria - <span>HTML,Javascript </span></p>
+             
+              <p>Live Demo - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+              <video src="videos/video4.mp4" ></video>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="java-type">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/10.png" alt="thumbnail">
+            <button type = "button" class="btn more-info-btn" >Mais Informações</button>
+          </div>
+          <h3 class="portfolio-item-title">Globe ThreeJs</h3>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
+                soluta labore quae minima quos natus id modi? 
+                Perferendis nihil voluptatibus aspernatur dolore labore praesentium commodi. Ab quo necessitatibus ipsam perspiciatis illum, 
+                exercitationem minus maxime possimus harum dicta doloribus aliquam cum iste accusamus.</p>
+            </div>
+            <div class="general-info">
+              <p>Status - <span>Em Andamento</span></p>
+              <p>Tecnologias - <span>JavaScript/ThreeJs </span></p>
+              <p>Categoria - <span>JavaScript/ThreeJs  </span></p>
+              
+              <p>Live Demo - <span><a href="#" target="_blank">www.domain.com</a></span></p>
               <video src="videos/video4.mp4" ></video>
             </div>
           </div>
@@ -348,34 +411,10 @@
 
         <div class="portfolio-item" data-category="react,html">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/9.jpg" alt="thumbnail">
+            <img src="img/portfolio/11.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Projeto React 4</h3>
-          <div class="portfolio-item-details">
-            <div class="description">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
-                soluta labore quae minima quos natus id modi? 
-                Perferendis nihil voluptatibus aspernatur dolore labore praesentium commodi. Ab quo necessitatibus ipsam perspiciatis illum, 
-                exercitationem minus maxime possimus harum dicta doloribus aliquam cum iste accusamus.</p>
-            </div>
-            <div class="general-info">
-              <p>Status - <span>Finalizado</span></p>
-              <p>Tecnologias - <span>React / Html </span></p>
-              <p>Categoria - <span>React </span></p>
-              <p>Video Demostrativo - <span onclick= "toggleVideo();" class = "general-video">Clique Aqui</span></p>
-              <p>Repositorio - <span><a href="#" target="_blank">www.domain.com</a></span></p>
-              <video src="videos/video4.mp4" ></video>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="java-type">
-          <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/8.jpg" alt="thumbnail">
-            <button type = "button" class="btn more-info-btn" >Mais Informações</button>
-          </div>
-          <h3 class="portfolio-item-title">Pacote JavaScript</h3>
+          <h3 class="portfolio-item-title">UniAph - Landing Page</h3>
           <div class="portfolio-item-details">
             <div class="description">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
@@ -385,21 +424,21 @@
             </div>
             <div class="general-info">
               <p>Status - <span>Em Andamento</span></p>
-              <p>Tecnologias - <span>JavaScript </span></p>
-              <p>Categoria - <span>JavaScript / TypeScript </span></p>
-              <p>Video Demostrativo - <span onclick= "toggleVideo();" class = "general-video">Clique Aqui</span></p>
-              <p>Repositorio - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+              <p>Tecnologias - <span>React/JavaScript </span></p>
+              <p>Categoria - <span>React/JavaScript</span></p>
+             
+              <p>Live Demp - <span><a href="#" target="_blank">www.domain.com</a></span></p>
               <video src="videos/video4.mp4" ></video>
             </div>
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="java-type">
+        <div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/8.jpg" alt="thumbnail">
+            <img src="img/portfolio/12.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Pacote JavaScript</h3>
+          <h3 class="portfolio-item-title">Uber App Redesign</h3>
           <div class="portfolio-item-details">
             <div class="description">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
@@ -409,21 +448,21 @@
             </div>
             <div class="general-info">
               <p>Status - <span>Em Andamento</span></p>
-              <p>Tecnologias - <span>JavaScript </span></p>
-              <p>Categoria - <span>JavaScript / TypeScript </span></p>
+              <p>Tecnologias - <span>React Native </span></p>
+              <p>Categoria - <span>React Native </span></p>
               <p>Video Demostrativo - <span onclick= "toggleVideo();" class = "general-video">Clique Aqui</span></p>
-              <p>Repositorio - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+              <p>Live Demo - <span><a href="#" target="_blank">www.domain.com</a></span></p>
               <video src="videos/video4.mp4" ></video>
             </div>
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="java-type">
+        <div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/8.jpg" alt="thumbnail">
+            <img src="img/portfolio/13.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Pacote TypeScript</h3>
+          <h3 class="portfolio-item-title">Pee-Poo</h3>
           <div class="portfolio-item-details">
             <div class="description">
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis, cum assumenda sint libero possimus nobis a 
@@ -433,10 +472,9 @@
             </div>
             <div class="general-info">
               <p>Status - <span>Em Andamento</span></p>
-              <p>Tecnologias - <span>TypeScript </span></p>
-              <p>Categoria - <span>JavaScript / TypeScript </span></p>
-              <p>Video Demostrativo - <span onclick= "toggleVideo();" class = "general-video">Clique Aqui</span></p>
-              <p>Repositorio - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+              <p>Tecnologias - <span>React Native </span></p>
+              <p>Categoria - <span>React Native </span></p>
+              
               <video src="videos/video4.mp4" ></video>
             </div>
           </div>
@@ -517,6 +555,13 @@
           <video src="videos/video4.mp4" controls="true"></video>
           <button type = "button" title = "Fechar" onclick="toggleVideo();" class = "close-btn trailer-close-btn"></button>
         </div>
+
+        <div class="modal">
+          <iframe src = 'https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=white&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40samueldev21%2Fc106fe%2BS_9pVyMn0g&orientation=portrait&scale=80&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B"EXDevMenuDisableAutoLaunch"%3Atrue%2C"EXKernelLaunchUrlDefaultsKey"%3A"exp%3A%2F%2Fexp.host%2F%40samueldev21%2Fc106fe%2BS_9pVyMn0g"%2C"EXKernelDisableNuxDefaultsKey"%3Atrue%7D' >
+
+          </iframe>
+          <button type = "button" title = "Fechar" onclick="toggleDemo();" class = "close-btn trailer-close-btn"></button>
+        </div>
         <div class="pp-content">
         <div class="pp-header">
           <h2 class="pp-counter">
@@ -556,13 +601,21 @@
    <!--Portfolio Item Details Section End-->
 <script src="js/main.js"></script>
 
+
 <script type = "text/javascript">
  function toggleVideo(){
    var trailer = document.querySelector(".trailer");
-   trailer.classList.toggle("active");
-
-  
+   trailer.classList.toggle("active"); 
  }
+
+ function toggleDemo(){
+   var modal = document.querySelector(".modal");
+   modal.classList.toggle("active"); 
+ }
+
+ 
 </script>
+
+
 </body>
 </html>

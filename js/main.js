@@ -141,6 +141,9 @@ function portfolioItemDetails(){
 
     document.querySelector(".trailer video").src =
     portfolioItems[portfolioItemIndex].querySelector("video").src;
+/* 
+    document.querySelector(".modal iframe").src =
+    portfolioItems[portfolioItemIndex].querySelector(".iframe").src; */
 
     document.querySelector(".pp-header h3").innerHTML = 
     portfolioItems[portfolioItemIndex].querySelector(".portfolio-item-title").innerHTML;

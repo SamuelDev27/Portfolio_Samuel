@@ -1403,3 +1403,42 @@ Responsive
         opacity: 1;
     }
 }
+
+/* Atualização de conteúdo e apresentação profissional */
+.about-role {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px 0 18px;
+}
+.about-content > p {
+  line-height: 1.8;
+}
+.portfolio-intro {
+  max-width: 720px;
+  margin: 12px auto 0;
+  color: var(--white-light);
+  line-height: 1.7;
+  text-align: center;
+}
+.portfolio-item-thumbnail img {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+.portfolio-item h3 {
+  line-height: 1.35;
+}
+.portfolio-popup .general-info a,
+.contact-info-item a {
+  color: var(--main-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.contact-info-item a:hover,
+.portfolio-popup .general-info a:hover {
+  opacity: .8;
+}
+@media (max-width: 575px) {
+  .about-role { font-size: 17px; }
+  .portfolio-intro { padding: 0 12px; }
+}

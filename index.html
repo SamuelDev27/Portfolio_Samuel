@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <title>Samuel Oliveira - Portfólio </title>
+  <title>Samuel Oliveira | Desenvolvedor de Software</title>
+  <meta name="description" content="Portfólio de Samuel Oliveira: desenvolvimento de aplicações web e mobile, React Native, React, Node.js e soluções digitais.">
+  <meta name="theme-color" content="#111111">
+  <meta property="og:title" content="Samuel Oliveira | Desenvolvedor de Software">
+  <meta property="og:description" content="Projetos web, mobile e soluções digitais.">
+  <meta property="og:type" content="website">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/font-awesome.css">
@@ -53,8 +58,8 @@
           <div class="nav-inner">
             <ul>
               <li><a href="#sobre" class = "nav-item link-item">Sobre</a></li>
-              <li><a href="#portfolio" class = "nav-item link-item">Portfólio</a></li>
-              <!-- <li><a href="#contato" class = "nav-item link-item">Contato</a></li> -->
+              <li><a href="#portfolio" class="nav-item link-item">Portfólio</a></li>
+              <li><a href="#contato" class="nav-item link-item">Contato</a></li>
             </ul>
           </div>
         </nav>
@@ -69,17 +74,28 @@
       <div class = "row min-vh-100">
         <div class="about-content">
           <img src="img/profile.jpg" alt = "profile">
-          <h1>Olá, Eu me chamo Samuel Oliveira</h1>
-          <p>Sou um <span>Desenvolvedor FrontEnd</span>, natural de Salvador, Bahia. Desenvolvo aplicações
-           <span> Mobile & Web</span>, utilizando <span>React Native</span> para Mobile, e <span>React JS</span>,
-         <span>Html</span>, <span>Css</span>, e <span>Bootstrap</span> para Web, 
-        Alem disso trabalho com criações de pacotes em <span>JavaScript</span>
-        e <span>TypeScript</span> para <span >React Native.</span> Deseja conhecer os pacotes desenvolvidos?
-        Conheça o meu <a href="https://github.com/SamuelDev27" target="_blank">Github</a>. Deseja conhecer os meus projetos? Conheça o meu <a href = "#portfolio" class="link-item">Portfólio</a>.
-          <!-- Deseja entrar em contato comigo? <a href = "#contato" class="link-item">Clique aqui!</a>.</p> -->
+          <h1>Olá, eu sou Samuel Oliveira</h1>
+          <p class="about-role">Desenvolvedor de Software | React, React Native e Soluções Digitais</p>
+          <p>Sou desenvolvedor de software, natural de Salvador, Bahia, com experiência na criação de aplicações web e mobile e na implementação de soluções digitais. Trabalho com JavaScript, React, React Native, Node.js, Expo e Firebase, além de HTML, CSS e Bootstrap.</p>
+          <p>Durante minha atuação como assessor parlamentar e responsável pela área de tecnologia na Câmara Municipal de Salvador, desenvolvi um aplicativo mobile publicado na Google Play e participei da criação de três sites institucionais com Wix Studio. Também atuei na administração de hospedagens, domínios, bancos de dados, servidores e integrações.</p>
+          <p>Gosto de transformar necessidades reais em soluções digitais funcionais, acessíveis e bem organizadas. Conheça alguns dos meus projetos ou visite meu <a href="https://github.com/SamuelDev27" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
           <h2>Habilidades</h2>
-          <div class = "skills">
-            <div class = "skill-item">JavaScript</div>
+          <div class="skills">
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">React</div>
+            <div class="skill-item">React Native</div>
+            <div class="skill-item">Node.js</div>
+            <div class="skill-item">Expo</div>
+            <div class="skill-item">Firebase</div>
+            <div class="skill-item">Wix Studio</div>
+            <div class="skill-item">TypeScript</div>
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">Bootstrap</div>
+            <div class="skill-item">Git</div>
+            <div class="skill-item">GitHub</div>
+            <div class="skill-item">Three.js</div>
+          </div>
             <div class = "skill-item">React Native</div>
             <div class = "skill-item">React</div>
             <div class = "skill-item">TypeScript</div>
@@ -91,7 +107,7 @@
 
            <!--Social Section End-->
           
-           <h2 class = "wrapper-title">Redes Socias</h2>
+           <h2 class = "wrapper-title">Redes sociais</h2>
       <div class="wrapper">
       
   <div class="icon twitter">
@@ -148,14 +164,16 @@
             <h2>
               Trabalhos Recentes
             </h2>
+            <p class="portfolio-intro">Uma seleção de aplicações mobile, sites institucionais e projetos web que desenvolvi ou nos quais atuei diretamente.</p>
           </div>
         </div>
       <div class="row">
         <div class="portfolio-filter">
           <button type = "button" title="Todos os Projetos" class="portfolio-filter-btn active" data-filter="todos" >Todos</button>
           <button type = "button" title="React Native" class="portfolio-filter-btn" data-filter="react-native" >Mobile</button>
-          <button type = "button" title="React " class="portfolio-filter-btn" data-filter="react" >Landing Page</button>
-          <button type = "button" title="Html" class="portfolio-filter-btn" data-filter="web-design" >Web design</button>
+          <button type="button" title="Sites institucionais" class="portfolio-filter-btn" data-filter="sites">Sites institucionais</button>
+          <button type="button" title="React" class="portfolio-filter-btn" data-filter="react">Landing Page</button>
+          <button type="button" title="HTML" class="portfolio-filter-btn" data-filter="html">Web design</button>
           <button type = "button" title="JavaScript/ThreeJs" class="portfolio-filter-btn" data-filter="java-type" >JavaScript / ThreeJs</button>
         </div>
         <div class="filter-status">
@@ -165,79 +183,81 @@
 
       <div class="row portfolio-items">
 
-        <div class="portfolio-item" data-category="react">
+        <div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/andre-relatorio.png" alt="thumbnail">
-            <button type = "button" class="btn more-info-btn" >Mais Informações</button>
+            <img src="img/portfolio/andre-mobile.png" alt="Aplicativo Mandato André Fraga">
+            <button type="button" class="btn more-info-btn">Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Relatório Mandato Vereador André Fraga</h3>
+          <h3 class="portfolio-item-title">Aplicativo Mandato André Fraga</h3>
           <div class="portfolio-item-details">
-            <div class="description">
-              <p>Relatório dos 3 primeiros anos
-                de mandato
-                André Fraga.</p>
-            </div>
+            <div class="description"><p>Aplicativo mobile desenvolvido para aproximar os cidadãos do mandato parlamentar, oferecendo informações e canais para envio de sugestões e manifestações. O aplicativo foi publicado na Google Play.</p></div>
             <div class="general-info">
-              <p>Status - <span>Finalizado</span></p>
-              <p>Tecnologias - <span>React/JavaScript </span></p>
-              <p>Categoria - <span>React/JavaScript</span></p>
+              <p>Participação - <span>Desenvolvimento da aplicação mobile</span></p>
+              <p>Tecnologias - <span>React Native e JavaScript</span></p>
+              <p>Categoria - <span>Aplicativo mobile</span></p>
+              <p>Google Play - <span><a href="https://play.google.com/store/apps/details?id=io.andrefraga.mandatoandrefraga" target="_blank" rel="noopener noreferrer">Ver aplicativo</a></span></p>
+              <p>App Store - <span><a href="https://apps.apple.com/br/app/mandato-andr%C3%A9-fraga/id6471620675?platform=iphone" target="_blank" rel="noopener noreferrer">Ver aplicativo</a></span></p>
+              <video muted src="videos/video4.mp4"></video>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="sites">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/andre-site.svg" alt="Identidade visual do site André Fraga">
+            <button type="button" class="btn more-info-btn">Mais Informações</button>
+          </div>
+          <h3 class="portfolio-item-title">André Fraga — Site institucional</h3>
+          <div class="portfolio-item-details">
+            <div class="description"><p>Site institucional desenvolvido com Wix Studio para organizar e apresentar informações sobre o mandato, áreas de atuação, notícias, biografia, prêmios e materiais para download.</p></div>
+            <div class="general-info">
+              <p>Participação - <span>Desenvolvimento e implementação da solução digital</span></p>
+              <p>Tecnologias - <span>Wix Studio</span></p>
+              <p>Categoria - <span>Site institucional</span></p>
+              <p>Site oficial - <span><a href="https://www.andrefraga.com/" target="_blank" rel="noopener noreferrer">Acessar projeto</a></span></p>
               
-              <p>Site Oficial - <span><a href="https://www.relatorioandrefraga.com/"  target="_blank">https://www.relatorioandrefraga.com/</a></span></p>
-              <video muted src="videos/video4.mp4" ></video>
-             
+              <video muted src="videos/video4.mp4"></video>
             </div>
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="react-native">
+        <div class="portfolio-item" data-category="sites">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/andre-mobile.png" alt="thumbnail">
-            <button type = "button" class="btn more-info-btn" >Mais Informações</button>
+            <img src="img/portfolio/andre-relatorio.png" alt="Site do Relatório do Mandato André Fraga">
+            <button type="button" class="btn more-info-btn">Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">Mandato Vereador André Fraga</h3>
+          <h3 class="portfolio-item-title">Relatório do Mandato André Fraga</h3>
           <div class="portfolio-item-details">
-            <div class="description">
-              <p>Um app para aproximar o cidadão soteropolitano do vereador André Fraga. Neste app você irá conhecer as ideias que André acredita e poderá mandar sugestões de projetos e denúncias.</p>
-            </div>
+            <div class="description"><p>Plataforma digital desenvolvida com Wix Studio para apresentar os resultados do mandato, com sumário interativo, acesso a projetos, vídeos e ao relatório completo.</p></div>
             <div class="general-info">
-              <p>Status - <span>Finalizado</span></p>
-              <p>Tecnologias - <span>React Native</span></p>
-              <p>Categoria - <span>React Native</span></p>
-              <p>Android - <span><a href="https://play.google.com/store/apps/details?id=io.andrefraga.mandatoandrefraga"  target="_blank">Clique aqui</a></span></p>
-              <p>Ios - <span><a href="https://apps.apple.com/br/app/mandato-andr%C3%A9-fraga/id6471620675?platform=iphone"  target="_blank">Clique aqui</a></span></p>
-              <video muted src="videos/video4.mp4" ></video>
-             
+              <p>Participação - <span>Criação e estruturação do site</span></p>
+              <p>Tecnologias - <span>Wix Studio</span></p>
+              <p>Categoria - <span>Site institucional e prestação de contas</span></p>
+              <p>Site oficial - <span><a href="https://www.relatorioandrefraga.com/" target="_blank" rel="noopener noreferrer">Acessar projeto</a></span></p>
+              <video muted src="videos/video4.mp4"></video>
             </div>
           </div>
         </div>
 
-
-        <div class="portfolio-item" data-category="react-native">
+        <div class="portfolio-item" data-category="sites">
           <div class="portfolio-item-thumbnail">
-            <img src="img/portfolio/1.png" alt="thumbnail">
-            <button type = "button" class="btn more-info-btn" >Mais Informações</button>
+            <img src="img/portfolio/manual-ciclista.svg" alt="Identidade visual do Manual do Ciclista SSA">
+            <button type="button" class="btn more-info-btn">Mais Informações</button>
           </div>
-          <h3 class="portfolio-item-title">BlackDesk</h3>
+          <h3 class="portfolio-item-title">Manual do Ciclista SSA</h3>
           <div class="portfolio-item-details">
-            <div class="description">
-              <p>Gerencie Projetos e Obras, compartilhe informações relevantes com seus 
-                clientes, parceiros e fornecedores, tire dúvidas técnicas em nosso 
-                forum especializado, receba benefícios, crie diários de obras e 
-                gerencie documentos.</p>
-            </div>
+            <div class="description"><p>Site desenvolvido com Wix Studio para apresentar o Manual do Ciclista de Salvador, reunindo orientações sobre segurança, direitos, legislação de trânsito e benefícios do uso da bicicleta, além de acesso à cartilha. A cartilha foi idealizada e produzida pelo mandato em 2022.</p></div>
             <div class="general-info">
-              <p>Status - <span>Finalizado</span></p>
-              <p>Tecnologias - <span>React Native</span></p>
-              <p>Categoria - <span>React Native</span></p>
-              <p>Site Oficial - <span><a href="https://www.blackdesk.com.br"  target="_blank">https://www.blackdesk.com.br</a></span></p>
-              <video muted src="videos/video4.mp4" ></video>
-             
+              <p>Participação - <span>Desenvolvimento e implementação da solução digital</span></p>
+              <p>Tecnologias - <span>Wix Studio</span></p>
+              <p>Categoria - <span>Site informativo</span></p>
+              <p>Site oficial - <span><a href="https://www.manualdociclistassa.com.br/" target="_blank" rel="noopener noreferrer">Acessar projeto</a></span></p>
+              
+              <video muted src="videos/video4.mp4"></video>
             </div>
           </div>
         </div>
-
-
-        <div class="portfolio-item" data-category="react-native">
+<div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/1.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -260,8 +280,7 @@
             </div>
           </div>
         </div>
-
-        <div class="portfolio-item" data-category="react-native">
+<div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/2.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -282,8 +301,7 @@
             </div>
           </div>
         </div>
-
-        <div class="portfolio-item" data-category="react-native">
+<div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/3.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -309,8 +327,7 @@
 
          
         </div>
-
-        <div class="portfolio-item" data-category="react-native">
+<div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/4.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -330,8 +347,7 @@
             </div>
           </div>
         </div>
-
-        <div class="portfolio-item" data-category="react-native">
+<div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/5.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -351,8 +367,7 @@
             </div>
           </div>
         </div>
-
-        <div class="portfolio-item" data-category="react-native">
+<div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/6.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -372,8 +387,7 @@
             </div>
           </div>
         </div>
-
-        <div class="portfolio-item" data-category="react-native">
+<div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/7.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -394,8 +408,7 @@
             </div>
           </div>
         </div>
-
-        <div class="portfolio-item" data-category="react,html">
+<div class="portfolio-item" data-category="react,html">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/8.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -415,8 +428,7 @@
             </div>
           </div>
         </div>
-
-        <div class="portfolio-item" data-category="html">
+<div class="portfolio-item" data-category="html">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/9.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -436,8 +448,7 @@
             </div>
           </div>
         </div>
-
-        <div class="portfolio-item" data-category="java-type">
+<div class="portfolio-item" data-category="java-type">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/10.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -457,8 +468,7 @@
             </div>
           </div>
         </div>
-
-        <div class="portfolio-item" data-category="react,html">
+<div class="portfolio-item" data-category="react,html">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/11.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -478,8 +488,7 @@
             </div>
           </div>
         </div>
-
-        <div class="portfolio-item" data-category="react-native">
+<div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/12.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -500,8 +509,7 @@
             </div>
           </div>
         </div>
-
-        <div class="portfolio-item" data-category="react-native">
+<div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/13.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -520,9 +528,7 @@
             </div>
           </div>
         </div>
-
-        
-        <div class="portfolio-item" data-category="react-native">
+<div class="portfolio-item" data-category="react-native">
           <div class="portfolio-item-thumbnail">
             <img src="img/portfolio/14.png" alt="thumbnail">
             <button type = "button" class="btn more-info-btn" >Mais Informações</button>
@@ -543,8 +549,6 @@
             </div>
           </div>
         </div>
-
-
       </div>
 
     </div>
@@ -557,54 +561,29 @@
       <div class="container">
         <div class="row">
           <div class="section-title">
-            <h2>Entre em Contato</h2>
+            <h2>Vamos conversar?</h2>
           </div>
         </div>
         <div class="row">
           <div class="contact-content">
             <div class="contact-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fuga nulla deserunt ipsam 
-              perferendis quod molestias dolorum laboriosam mollitia 
-              doloremque voluptatum eligendi exercitationem at, atque incidunt, recusandae 
-              earum quibusdam qui.</p>
+              <p>Tem um projeto, uma oportunidade ou deseja conversar sobre tecnologia e soluções digitais? Entre em contato.</p>
+            </div>
+            <div class="contact-info-item">
+              <p>E-mail: <span><a href="mailto:samuel.oliveira.so27@gmail.com">samuel.oliveira.so27@gmail.com</a></span></p>
+            </div>
+            <div class="contact-info-item">
+              <p>WhatsApp: <span><a href="https://api.whatsapp.com/send?phone=5571993106854" target="_blank" rel="noopener noreferrer">Enviar mensagem</a></span></p>
+            </div>
+            <div class="contact-info-item">
+              <p>GitHub: <span><a href="https://github.com/SamuelDev27" target="_blank" rel="noopener noreferrer">github.com/SamuelDev27</a></span></p>
+            </div>
           </div>
-          <div class="contact-info-item">
-            <p>Email para contato: <span>example@gmail.com</span></p>
-          </div>
-       
-        </div>
           
         </div>
        
 
-        <!--Contact Form Start-->
-        <div class="contact-form">
-          <div class="contact-form-inner">
-            <div class="contact-form-container">
-              <button type="button" class = "close-btn toggle-contact-form-btn"></button>
-              <form >
-                <div class="row">
-                  <div class="input-group">
-                    <input type="text" placeholder="Seu Nome" class = "input-control">
-                  </div>
-                  <div class="input-group">
-                    <input type="text" placeholder="Seu Email" class = "input-control">
-                  </div>
-                  <div class="input-group">
-                    <input type="text" placeholder="Assunto" class = "input-control">
-                  </div>
-                  <div class="input-group">
-                    <textarea placeholder="Sua Mensagem" class="input-control"></textarea>
-                  </div>
-                  <div class="input-group">
-                    <button type="submit" class="btn btn-submit">Enviar Mensagem</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <!--Contact Form End-->
+        
 
       </div>
     </section>
